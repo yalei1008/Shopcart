@@ -39,7 +39,6 @@ body {
 </head>
 <body>
 
-
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div id ="header" class="container-fluid">
     <div class="navbar-header">
@@ -49,56 +48,17 @@ body {
       <ul class="nav navbar-nav">
         <li class="active"><a href="shoppingcart.html"><FONT FACE="courier">Home</FONT></a></li>
         <li><a href="productlist.html"><FONT FACE="algerian">Product List</FONT></a></li>
-        <li><a href="#"><FONT FACE="algerian">Product Details</FONT></a></li>
+        <li><a href="/Detail.jsp"><FONT FACE="algerian">Product Details</FONT></a></li>
         <li><a href="#"><FONT FACE="algerian">Shopping Carts</FONT></a></li>
          <li><a href="#"><FONT FACE="algerian">Order Confirmation</FONT></a></li>
+            	<li>
+	      		<a href="ShoppingCart"><span class="glyphicon glyphicon-shopping-cart"></span> <span class="badge">${numItems}</span></a></li>
       </ul>
     </div>
   </div>
 </nav>
-<div>
-  <img src="BGL0GVS_mz.jpg" alt="HTML tutorial" style="width:42px;height:42px;border:0">
-
-</div>
-
-<a href="/Detail.jsp">
-<img border="0" alt="W3Schools" src="BGL0GVS_mz.jpg" width="200" height="200" align="center">
-</a>
-<a href="/Detail.jsp">
-<img border="0" alt="W3Schools" src="BGL0K4M_mz.jpg" width="200" height="200" align="center">
-</a>
-<a href="/Detail.jsp">
-<img border="0" alt="W3Schools" src="BGL0K6F_mz.jpg" width="200" height="200" align="center">
-</a>
-<a href="/Detail.jsp">
-<img border="0" alt="W3Schools" src="BGL0K6T_mz.jpg" width="200" height="200" align="center">
-</a>
-<a href="/Detail.jsp">
-<img border="0" alt="W3Schools" src="BGL0KDC_mz.jpg" width="200" height="200" align="center">
-</a>
-<a href="/Detail.jsp">
-<img border="0" alt="W3Schools" src="BGL0KDS_mz.jpg" width="200" height="200" align="right">
-</a>
-<a href="/Detail.jsp">
-<img border="0" alt="W3Schools" src="BGV1CKR_mz.jpg" width="200" height="200" align="right">
-</a>
-<a href="/Detail.jsp">
-<img border="0" alt="W3Schools" src="BGV298J_mz.jpg" width="200" height="200" align="right">
-</a>
-<a href="/Detail.jsp">
-<img border="0" alt="W3Schools" src="BGV2HKN_mz.jpg" width="200" height="200" align="right">
-</a>
-<a href="/Detail.jsp">
-<img border="0" alt="W3Schools" src="BGV2LB4_mz.jpg" width="200" height="200" align="right">
-</a>
-</p>
-
-
-
-
-
-
-
-
+	${productData}
 </body>
 </html>
+
+
